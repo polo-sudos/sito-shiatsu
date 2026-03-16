@@ -2,10 +2,16 @@
 import Layout from '../layouts/Layout.astro';
 ---
 
-<Layout title="Alessandra Ciot | Shiatsu • Moxibustione • Riflessologia">
+<Layout title="L'Officina dello Shen | Shiatsu • Coppettazione • Riflessologia">
 	<nav class="fixed w-full z-50 bg-[#0a0a0a]/60 backdrop-blur-sm border-b border-white/5 shadow-2xl">
 		<div class="max-w-[1600px] mx-auto px-6 py-4 flex justify-between items-center overflow-hidden">
-			<span class="font-serif text-l md:text-3xl tracking-tighter font-bold text-white uppercase italic shrink-0">Alessandra Ciot<span class="text-[#00b4d8]">.</span></span>
+			<div class="flex items-center gap-3">
+				<img src="/logo.png" alt="Logo L'Officina dello Shen" class="h-10 md:h-14 w-auto" />
+				<span class="font-serif text-lg md:text-2xl tracking-tighter font-bold text-white uppercase italic shrink-0">
+					L'Officina dello Shen<span class="text-[#00b4d8]">.</span>
+				</span>
+			</div>
+			
 			<a href="https://wa.me/393489219739" class="group flex items-center gap-3 text-sm font-bold text-[#00b4d8] uppercase tracking-widest shrink-0">
 				WhatsApp
 				<span class="w-10 h-10 flex items-center justify-center rounded-full border border-[#00b4d8]/30 group-hover:bg-[#00b4d8] group-hover:text-[#0a0a0a] transition-all duration-300 text-xs">
@@ -16,20 +22,21 @@ import Layout from '../layouts/Layout.astro';
 	</nav>
 
 	<main class="overflow-x-hidden">
-		<h1 class="sr-only">Alessandra Ciot - Trattamenti Shiatsu e Riflessologia a Pordenone</h1>
+		<h1 class="sr-only">L'Officina dello Shen - Alessandra Ciot - Shiatsu e Benessere a Pordenone</h1>
+		
 		<header class="relative min-h-[85vh] md:min-h-screen bg-[#0a0a0a] text-white flex items-center pt-20 md:pt-24 overflow-hidden">
 			<div class="absolute inset-0 opacity-[0.03] bg-[linear-gradient(to_right,#888_1px,transparent_1px),linear-gradient(to_bottom,#888_1px,transparent_1px)] bg-[size:64px_64px]"></div>
 			
 			<div class="max-w-[1600px] mx-auto px-6 grid md:grid-cols-[1fr,auto] gap-8 md:gap-16 items-center relative z-10 py-6 md:py-10">
 				<div class="max-w-4xl">
 					<div class="inline-flex items-center gap-2 text-[10px] md:text-sm font-medium text-[#00b4d8] mb-4 md:mb-8 uppercase tracking-[0.2em] md:tracking-[0.3em]">
-						Percorsi individuali • Tiezzo & Cordenons
+						L'Officina dello Shen • Percorsi individuali
 					</div>
 					<h1 class="text-5xl md:text-[90px] font-serif font-bold leading-[1.0] tracking-tighter mb-10 italic break-words">
 						Ritrova <br/><span class="text-[#00b4d8] not-italic">equilibrio, energia</span><br/>e benessere.
 					</h1>
 					<p class="text-xl text-stone-400 max-w-xl leading-relaxed mb-12 font-light italic">
-						Lo Shiatsu non è solo un massaggio, ma una pratica antica che armonizza energia e vitalità. Guidiamo le persone in un percorso personalizzato.
+						Dall'esperienza di Alessandra Ciot nasce un approccio che armonizza corpo e mente attraverso lo Shiatsu e le antiche arti del benessere.
 					</p>
 					<a href="https://wa.me/393489219739" class="inline-block bg-[#00b4d8] text-[#0a0a0a] px-12 py-5 rounded-full font-extrabold text-lg hover:bg-white transition-all shadow-2xl">
 						PRENOTA UN TRATTAMENTO
@@ -38,7 +45,7 @@ import Layout from '../layouts/Layout.astro';
 				
 				<div class="hidden md:block relative">
 					<div class="absolute -inset-10 bg-[#00b4d8]/10 rounded-full blur-3xl"></div>
-					<img src="/facendo_trattamento_shia.png" alt="Alessandra Ciot al lavoro" class="rounded-3xl w-full max-w-2xl border border-white/5 opacity-80 hover:opacity-100 transition-opacity" />
+					<img src="/facendo_trattamento_shia.png" alt="Trattamento in corso" class="rounded-3xl w-full max-w-2xl border border-white/5 opacity-80 hover:opacity-100 transition-opacity" />
 				</div>
 			</div>
 		</header>
@@ -46,40 +53,16 @@ import Layout from '../layouts/Layout.astro';
 		<section class="py-32 bg-[#0f0f0f] border-y border-white/5">
 			<div class="max-w-[1600px] mx-auto px-6 grid lg:grid-cols-2 gap-20 items-center">
 				<div class="order-2 lg:order-1">
-					<img src="/leggendo_libro_shia.png" alt="Formazione Alessandra Ciot" class="rounded-3xl w-full max-w-2xl border border-white/5 opacity-80 hover:opacity-100 transition-opacity" />
+					<img src="/leggendo_libro_shia.png" alt="Formazione e studio" class="rounded-3xl w-full max-w-2xl border border-white/5 opacity-80 hover:opacity-100 transition-opacity" />
 				</div>
 				<div class="grid gap-12 order-1 lg:order-2">
 					<div class="group">
-						<h3 class="text-white text-2xl font-bold mb-4 uppercase tracking-widest italic font-serif border-l-2 border-[#00b4d8] pl-4">Professionalità certificata</h3>
-						<p class="text-stone-500 font-light leading-relaxed italic">Ogni trattamento è eseguito personalmente da Alessandra, operatrice certificata, con anni di esperienza nello Shiatsu.</p>
+						<h3 class="text-white text-2xl font-bold mb-4 uppercase tracking-widest italic font-serif border-l-2 border-[#00b4d8] pl-4">L'Officina dello Shen</h3>
+						<p class="text-stone-500 font-light leading-relaxed italic">Uno spazio dedicato alla cura di sé, dove Alessandra Ciot integra tecniche millenarie per favorire il libero fluire dello "Shen" (lo spirito/energia vitale).</p>
 					</div>
 					<div class="group">
 						<h3 class="text-white text-2xl font-bold mb-4 uppercase tracking-widest italic font-serif border-l-2 border-[#00b4d8] pl-4">Approccio personalizzato</h3>
-						<p class="text-stone-500 font-light leading-relaxed italic">Ogni seduta è adattata alle tue esigenze: ascolto, attenzione e cura del tuo corpo e della tua energia.</p>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section class="py-24 bg-[#0a0a0a]">
-			<div class="max-w-[1600px] mx-auto px-6">
-				<div class="text-center mb-16">
-					<h2 class="text-[#00b4d8] text-5xl md:text-6xl font-serif italic mb-4">Dove mi trovi</h2>
-				</div>
-
-				<div class="grid md:grid-cols-2 gap-12">
-					<div class="p-6 md:p-12 border border-white/5 bg-[#0f0f0f] rounded-[2rem] hover:border-[#00b4d8]/30 transition-all">
-						<h4 class="text-white text-3xl font-serif mb-4 font-bold italic">ASD Bamboo</h4>
-						<a href="https://maps.google.com/?q=Piazza+Garibaldi+26+Tiezzo" target="_blank"  class="text-white hover:text-[#00b4d8]">
-    						Piazza Garibaldi, 26 <br/> Tiezzo di Azzano Decimo (PN)
-  						</a>
-					</div>
-					
-					<div class="p-6 md:p-12 border border-white/5 bg-[#0f0f0f] rounded-[2rem] hover:border-[#00b4d8]/30 transition-all">
-						<h4 class="text-white text-3xl font-serif mb-4 font-bold italic">Dream Fitness Wellness</h4>
-						<a href="https://maps.google.com/?q=Via+Nogaredo+78+Cordenons" target="_blank" c class="text-white hover:text-[#00b4d8]">
-    						Via Nogaredo, 78 <br/> Cordenons (PN)
-  						</a>
+						<p class="text-stone-500 font-light leading-relaxed italic">Ogni seduta è un dialogo silenzioso con il corpo, adattato alle tue necessità specifiche attraverso l'ascolto e la presenza.</p>
 					</div>
 				</div>
 			</div>
@@ -88,26 +71,51 @@ import Layout from '../layouts/Layout.astro';
 		<section id="servizi" class="py-32 bg-[#0a0a0a]">
 			<div class="max-w-[1600px] mx-auto px-6">
 				<div class="flex flex-col md:flex-row justify-between items-end mb-20 gap-8">
-					<h2 class="text-5xl md:text-6xl font-serif text-white italic">I Miei <span class="text-[#00b4d8]">Trattamenti</span></h2>
+					<h2 class="text-5xl md:text-6xl font-serif text-white italic">I Nostri <span class="text-[#00b4d8]">Trattamenti</span></h2>
 					<div class="md:w-1/3">
 						<img src="/facendo_trattamento_2.png" alt="Dettaglio trattamento" class="rounded-2xl border border-white/10 transition-all" />
 					</div>
 				</div>
 				
-				<div class="grid grid-cols-1 md:grid-cols-3 gap-10 max-w-[1600px] mx-auto text-center md:text-left">
-					<div class="group p-6 md:p-12 bg-[#141414] rounded-3xl border border-white/5 hover:border-[#00b4d8]/40 transition-all text-center">
-						<h3 class="text-3xl font-serif font-bold text-white mb-3 md:mb-6 uppercase tracking-widest italic group-hover:text-[#00b4d8]">Shiatsu</h3>
-						<p class="text-stone-500 font-light italic leading-relaxed text-lg md:text-base">Pressioni manuali profonde per stimolare il flusso energetico e sciogliere le tensioni muscolari.</p>
+				<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-[1600px] mx-auto">
+					<div class="group p-8 bg-[#141414] rounded-3xl border border-white/5 hover:border-[#00b4d8]/40 transition-all text-center">
+						<h3 class="text-2xl font-serif font-bold text-white mb-4 uppercase tracking-widest italic group-hover:text-[#00b4d8]">Shiatsu</h3>
+						<p class="text-stone-500 font-light italic leading-relaxed text-sm">Pressioni manuali profonde per stimolare il flusso energetico e sciogliere le tensioni muscolari.</p>
 					</div>
 					
-					<div class="group p-6 md:p-12 bg-[#141414] rounded-3xl border border-white/5 hover:border-[#00b4d8]/40 transition-all text-center">
-						<h3 class="text-3xl font-serif font-bold text-white mb-3 md:mb-6 uppercase tracking-widest italic group-hover:text-[#00b4d8]">Moxibustione</h3>
-						<p class="text-stone-500 font-light italic leading-relaxed text-lg md:text-base">Calore mirato su punti specifici per armonizzare l'energia e contrastare disturbi da freddo e umidità.</p>
+					<div class="group p-8 bg-[#141414] rounded-3xl border border-white/5 hover:border-[#00b4d8]/40 transition-all text-center">
+						<h3 class="text-2xl font-serif font-bold text-white mb-4 uppercase tracking-widest italic group-hover:text-[#00b4d8]">Coppettazione</h3>
+						<p class="text-stone-500 font-light italic leading-relaxed text-sm">Tecnica che favorisce la circolazione sanguigna e linfatica, ideale per decontrarre i tessuti e drenare le tossine.</p>
 					</div>
 					
-					<div class="group p-6 md:p-12 bg-[#141414] rounded-3xl border border-white/5 hover:border-[#00b4d8]/40 transition-all text-center">
-						<h3 class="text-3xl font-serif font-bold text-white mb-3 md:mb-6 uppercase tracking-widest italic group-hover:text-[#00b4d8]">Riflessologia</h3>
-						<p class="text-stone-500 font-light italic leading-relaxed text-lg md:text-base">Riequilibrio dell'intero organismo attraverso il massaggio zonale dei piedi.</p>
+					<div class="group p-8 bg-[#141414] rounded-3xl border border-white/5 hover:border-[#00b4d8]/40 transition-all text-center">
+						<h3 class="text-2xl font-serif font-bold text-white mb-4 uppercase tracking-widest italic group-hover:text-[#00b4d8]">Moxibustione</h3>
+						<p class="text-stone-500 font-light italic leading-relaxed text-sm">Applicazione di calore su punti specifici per armonizzare l'energia e contrastare umidità e freddo.</p>
+					</div>
+					
+					<div class="group p-8 bg-[#141414] rounded-3xl border border-white/5 hover:border-[#00b4d8]/40 transition-all text-center">
+						<h3 class="text-2xl font-serif font-bold text-white mb-4 uppercase tracking-widest italic group-hover:text-[#00b4d8]">Riflessologia</h3>
+						<p class="text-stone-500 font-light italic leading-relaxed text-sm">Riequilibrio dell'intero organismo attraverso il massaggio stimolante delle zone riflessogene dei piedi.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="py-24 bg-[#0f0f0f]">
+			<div class="max-w-[1600px] mx-auto px-6">
+				<div class="text-center mb-16">
+					<h2 class="text-[#00b4d8] text-5xl md:text-6xl font-serif italic mb-4">Sedi dei trattamenti</h2>
+				</div>
+
+				<div class="grid md:grid-cols-2 gap-12">
+					<div class="p-6 md:p-12 border border-white/5 bg-[#0a0a0a] rounded-[2rem] hover:border-[#00b4d8]/30 transition-all">
+						<h4 class="text-white text-3xl font-serif mb-4 font-bold italic">ASD Bamboo</h4>
+						<p class="text-white opacity-80">Piazza Garibaldi, 26 <br/> Tiezzo di Azzano Decimo (PN)</p>
+					</div>
+					
+					<div class="p-6 md:p-12 border border-white/5 bg-[#0a0a0a] rounded-[2rem] hover:border-[#00b4d8]/30 transition-all">
+						<h4 class="text-white text-3xl font-serif mb-4 font-bold italic">Dream Fitness Wellness</h4>
+						<p class="text-white opacity-80">Via Nogaredo, 78 <br/> Cordenons (PN)</p>
 					</div>
 				</div>
 			</div>
@@ -116,12 +124,15 @@ import Layout from '../layouts/Layout.astro';
 		<footer class="py-20 bg-[#0a0a0a] border-t border-white/5 text-stone-600">
 			<div class="max-w-[1600px] mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-10">
 				<div class="text-center md:text-left">
-					<span class="font-serif text-3xl font-bold text-white tracking-tighter uppercase italic">Alessandra Ciot</span>
-					<br/><br/>
+					<div class="flex items-center gap-3 mb-4 justify-center md:justify-start">
+						<img src="/logo.png" alt="Logo" class="h-8 w-auto grayscale opacity-50" />
+						<span class="font-serif text-2xl font-bold text-white tracking-tighter uppercase italic">L'Officina dello Shen</span>
+					</div>
+					<p class="text-sm italic mb-2">di Alessandra Ciot</p>
 					<a class="text-white hover:text-[#00b4d8]" href="tel:+393489219739">+39 348 921 9739</a>	
 				</div>
 				<div class="text-center md:text-right text-xs uppercase tracking-widest opacity-40 font-mono italic">
-					&copy; 2025 Alessandra Ciot • Cordenons • Tiezzo
+					© 2026 L'Officina dello Shen • Pordenone e provincia
 				</div>
 			</div>
 		</footer>
@@ -133,6 +144,6 @@ import Layout from '../layouts/Layout.astro';
 		overflow-x: hidden;
 		width: 100%;
 		position: relative;
+		background-color: #0a0a0a;
 	}
-
 </style>
