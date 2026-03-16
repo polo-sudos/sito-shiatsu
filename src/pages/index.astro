@@ -149,52 +149,40 @@ import Layout from '../layouts/Layout.astro';
 			</div>
 		</section>
 
-		<section class="py-32 bg-[#0f0f0f]">
+		section class="py-32 bg-[#0a0a0a] border-t border-white/5">
 			<div class="max-w-[1600px] mx-auto px-6">
 				<div class="text-center mb-20">
-					<h2 class="text-5xl md:text-6xl font-serif text-white italic mb-6">Cosa dicono <span class="text-[#09AC90]">di noi</span></h2>
-					<p class="text-stone-500 font-light italic max-w-2xl mx-auto">L'esperienza di chi ha già scelto i trattamenti de L'Officina dello Shen per il proprio benessere.</p>
+					<h2 class="text-[#09AC90] text-sm font-bold uppercase tracking-[0.3em] mb-4">Dicono di Alessandra</h2>
+					<p class="text-4xl font-serif text-white italic text-center">Esperienze reali</p>
 				</div>
-
-				<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-					<div class="p-10 bg-[#0a0a0a] rounded-[2.5rem] border border-white/5 relative group hover:border-[#09AC90]/30 transition-all duration-500">
-						<div class="text-[#09AC90] mb-6">
-							<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.5">
-								<path d="M14.017 21L14.017 18C14.017 16.8954 14.9124 16 16.017 16H19.017C19.5693 16 20.017 15.5523 20.017 15V9C20.017 8.44772 19.5693 8 19.017 8H15.017C14.4647 8 14.017 8.44772 14.017 9V12C14.017 12.5523 13.5693 13 13.017 13H11.017V6C11.017 4.89543 11.9124 4 13.017 4H19.017C21.2261 4 23.017 5.79086 23.017 8V15C23.017 18.3137 20.3307 21 17.017 21H14.017ZM1.0166 21L1.0166 18C1.0166 16.8954 1.91203 16 3.0166 16H6.0166C6.56888 16 7.0166 15.5523 7.0166 15V9C7.0166 8.44772 6.56888 8 6.0166 8H2.0166C1.46431 8 1.0166 8.44772 1.0166 9V12C1.0166 12.5523 0.568882 13 0.0166016 13H-1.9834V6C-1.9834 4.89543 -1.08797 4 0.0166016 4H6.0166C8.22574 4 10.0166 5.79086 10.0166 8V15C10.0166 18.3137 7.33031 21 4.0166 21H1.0166Z" />
-							</svg>
-						</div>
-						<p class="text-stone-300 italic leading-relaxed mb-8 text-lg">"Dopo ogni seduta mi sento rinata. Alessandra ha una sensibilità incredibile nel capire esattamente dove lavorare per sciogliere le tensioni."</p>
-						<div class="flex items-center gap-4">
-							<div class="w-12 h-[1px] bg-[#09AC90]"></div>
-							<span class="text-white font-serif italic font-bold">Maria R.</span>
-						</div>
+				
+				<div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+					<div class="p-8 bg-[#0f0f0f] border border-white/5 rounded-3xl shadow-xl">
+						<div class="text-[#09AC90] text-xl mb-4">★★★★★</div>
+						<p class="text-stone-400 italic font-light text-sm mb-6">"All' Officina dello Shen mi sono sentita coccolata. Alessandra è molto professionale e gentile. Mi ha accolto in un ambiente curato."</p>
+						<span class="text-white font-serif text-xs uppercase tracking-widest">Steval</span>
 					</div>
-
-					<div class="p-10 bg-[#0a0a0a] rounded-[2.5rem] border border-white/5 relative group hover:border-[#09AC90]/30 transition-all duration-500">
-						<div class="text-[#09AC90] mb-6">
-							<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.5">
-								<path d="M14.017 21L14.017 18C14.017 16.8954 14.9124 16 16.017 16H19.017C19.5693 16 20.017 15.5523 20.017 15V9C20.017 8.44772 19.5693 8 19.017 8H15.017C14.4647 8 14.017 8.44772 14.017 9V12C14.017 12.5523 13.5693 13 13.017 13H11.017V6C11.017 4.89543 11.9124 4 13.017 4H19.017C21.2261 4 23.017 5.79086 23.017 8V15C23.017 18.3137 20.3307 21 17.017 21H14.017ZM1.0166 21L1.0166 18C1.0166 16.8954 1.91203 16 3.0166 16H6.0166C6.56888 16 7.0166 15.5523 7.0166 15V9C7.0166 8.44772 6.56888 8 6.0166 8H2.0166C1.46431 8 1.0166 8.44772 1.0166 9V12C1.0166 12.5523 0.568882 13 0.0166016 13H-1.9834V6C-1.9834 4.89543 -1.08797 4 0.0166016 4H6.0166C8.22574 4 10.0166 5.79086 10.0166 8V15C10.0166 18.3137 7.33031 21 4.0166 21H1.0166Z" />
-							</svg>
-						</div>
-						<p class="text-stone-300 italic leading-relaxed mb-8 text-lg">"La moxibustione è stata una scoperta. Il calore profondo unito allo Shiatsu ha risolto i miei problemi di schiena cronici."</p>
-						<div class="flex items-center gap-4">
-							<div class="w-12 h-[1px] bg-[#09AC90]"></div>
-							<span class="text-white font-serif italic font-bold">Luca V.</span>
-						</div>
+					<div class="p-8 bg-[#0f0f0f] border border-white/5 rounded-3xl shadow-xl lg:translate-y-6">
+						<div class="text-[#09AC90] text-xl mb-4">★★★★★</div>
+						<p class="text-stone-400 italic font-light text-sm mb-6">"Consiglio davvero questo posto a chi cerca uno spazio sicuro dove prendersi cura di sé in modo profondo."</p>
+						<span class="text-white font-serif text-xs uppercase tracking-widest">Anna Miniello</span>
 					</div>
-
-					<div class="p-10 bg-[#0a0a0a] rounded-[2.5rem] border border-white/5 relative group hover:border-[#09AC90]/30 transition-all duration-500">
-						<div class="text-[#09AC90] mb-6">
-							<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.5">
-								<path d="M14.017 21L14.017 18C14.017 16.8954 14.9124 16 16.017 16H19.017C19.5693 16 20.017 15.5523 20.017 15V9C20.017 8.44772 19.5693 8 19.017 8H15.017C14.4647 8 14.017 8.44772 14.017 9V12C14.017 12.5523 13.5693 13 13.017 13H11.017V6C11.017 4.89543 11.9124 4 13.017 4H19.017C21.2261 4 23.017 5.79086 23.017 8V15C23.017 18.3137 20.3307 21 17.017 21H14.017ZM1.0166 21L1.0166 18C1.0166 16.8954 1.91203 16 3.0166 16H6.0166C6.56888 16 7.0166 15.5523 7.0166 15V9C7.0166 8.44772 6.56888 8 6.0166 8H2.0166C1.46431 8 1.0166 8.44772 1.0166 9V12C1.0166 12.5523 0.568882 13 0.0166016 13H-1.9834V6C-1.9834 4.89543 -1.08797 4 0.0166016 4H6.0166C8.22574 4 10.0166 5.79086 10.0166 8V15C10.0166 18.3137 7.33031 21 4.0166 21H1.0166Z" />
-							</svg>
-						</div>
-						<p class="text-stone-300 italic leading-relaxed mb-8 text-lg">"Ho provato la riflessologia plantare e la coppettazione. Alessandra è una professionista seria, l'ambiente è curato e rilassante."</p>
-						<div class="flex items-center gap-4">
-							<div class="w-12 h-[1px] bg-[#09AC90]"></div>
-							<span class="text-white font-serif italic font-bold">Elena T.</span>
-						</div>
+					<div class="p-8 bg-[#0f0f0f] border border-white/5 rounded-3xl shadow-xl">
+						<div class="text-[#09AC90] text-xl mb-4">★★★★★</div>
+						<p class="text-stone-400 italic font-light text-sm mb-6">"Professionalità e accoglienza. Complimenti."</p>
+						<span class="text-white font-serif text-xs uppercase tracking-widest">Barbara Bernardi</span>
 					</div>
+					<div class="p-8 bg-[#0f0f0f] border border-white/5 rounded-3xl shadow-xl lg:translate-y-6">
+						<div class="text-[#09AC90] text-xl mb-4">★★★★★</div>
+						<p class="text-stone-400 italic font-light text-sm mb-6">"Momento meraviglioso di relax e benessere."</p>
+						<span class="text-white font-serif text-xs uppercase tracking-widest">Emanuela Lafranconi</span>
+					</div>
+				</div>
+				
+				<div class="mt-24 text-center">
+					<a href="https://www.google.com/search?q=L%27Officina+dello+Shen+Reviews..." target="_blank" class="text-[#c5a059] text-xs font-bold uppercase tracking-[0.4em] border-b border-[#c5a059]/30 pb-2 hover:text-white hover:border-white transition-all">
+						Vedi tutte le recensioni su Google
+					</a>
 				</div>
 			</div>
 		</section>
