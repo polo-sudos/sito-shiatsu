@@ -16,6 +16,7 @@ import Layout from '../layouts/Layout.astro';
 	</nav>
 
 	<main class="overflow-x-hidden">
+		<h1 class="sr-only">Alessandra Ciot - Trattamenti Shiatsu e Riflessologia a Pordenone</h1>
 		<header class="relative min-h-[85vh] md:min-h-screen bg-[#0a0a0a] text-white flex items-center pt-20 md:pt-24 overflow-hidden">
 			<div class="absolute inset-0 opacity-[0.03] bg-[linear-gradient(to_right,#888_1px,transparent_1px),linear-gradient(to_bottom,#888_1px,transparent_1px)] bg-[size:64px_64px]"></div>
 			
@@ -37,7 +38,7 @@ import Layout from '../layouts/Layout.astro';
 				
 				<div class="hidden md:block relative">
 					<div class="absolute -inset-10 bg-[#00b4d8]/10 rounded-full blur-3xl"></div>
-					<img src="/facendo_trattamento_shia.png" alt="Alessandra Ciot al lavoro" class="relative rounded-3xl w-[500px] h-[650px] object-cover grayscale hover:grayscale-0 transition-all duration-1000 border border-white/10 shadow-2xl" />
+					<img src="/facendo_trattamento_shia.png" alt="Alessandra Ciot al lavoro" class="rounded-3xl w-full max-w-2xl border border-white/5 opacity-80 hover:opacity-100 transition-opacity" />
 				</div>
 			</div>
 		</header>
@@ -64,18 +65,21 @@ import Layout from '../layouts/Layout.astro';
 			<div class="max-w-[1600px] mx-auto px-6">
 				<div class="text-center mb-16">
 					<h2 class="text-[#00b4d8] text-5xl md:text-6xl font-serif italic mb-4">Dove mi trovi</h2>
-					<div class="h-[1px] w-24 bg-[#00b4d8]/50 mx-auto"></div>
 				</div>
 
 				<div class="grid md:grid-cols-2 gap-12">
 					<div class="p-6 md:p-12 border border-white/5 bg-[#0f0f0f] rounded-[2rem] hover:border-[#00b4d8]/30 transition-all">
 						<h4 class="text-white text-3xl font-serif mb-4 font-bold italic">ASD Bamboo</h4>
-						<p class="text-stone-400 font-light italic">Piazza Garibaldi, 26 <br/> 33088 Tiezzo di Azzano Decimo (PN)</p>
+						<a href="https://maps.google.com/?q=Piazza+Garibaldi+26+Tiezzo" target="_blank"  class="text-white hover:text-[#00b4d8]">
+    						Piazza Garibaldi, 26 <br/> Tiezzo di Azzano Decimo (PN)
+  						</a>
 					</div>
 					
 					<div class="p-6 md:p-12 border border-white/5 bg-[#0f0f0f] rounded-[2rem] hover:border-[#00b4d8]/30 transition-all">
 						<h4 class="text-white text-3xl font-serif mb-4 font-bold italic">Dream Fitness Wellness</h4>
-						<p class="text-stone-400 font-light italic">Via Nogaredo, 78 <br/> 33084 Cordenons (PN)</p>
+						<a href="https://maps.google.com/?q=Via+Nogaredo+78+Cordenons" target="_blank" c class="text-white hover:text-[#00b4d8]">
+    						Via Nogaredo, 78 <br/> Cordenons (PN)
+  						</a>
 					</div>
 				</div>
 			</div>
@@ -113,7 +117,8 @@ import Layout from '../layouts/Layout.astro';
 			<div class="max-w-[1600px] mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-10">
 				<div class="text-center md:text-left">
 					<span class="font-serif text-3xl font-bold text-white tracking-tighter uppercase italic">Alessandra Ciot</span>
-					<p class="mt-2 text-[#00b4d8] font-bold text-xl tracking-widest">+39 348 921 9739</p>
+					<br/><br/>
+					<a class="text-white hover:text-[#00b4d8]" href="tel:+393489219739">+39 348 921 9739</a>	
 				</div>
 				<div class="text-center md:text-right text-xs uppercase tracking-widest opacity-40 font-mono italic">
 					&copy; 2025 Alessandra Ciot • Cordenons • Tiezzo
@@ -129,4 +134,5 @@ import Layout from '../layouts/Layout.astro';
 		width: 100%;
 		position: relative;
 	}
+
 </style>
